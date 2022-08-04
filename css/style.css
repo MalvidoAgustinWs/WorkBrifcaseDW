@@ -99,7 +99,7 @@ main {
 	top: 100px;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.texto-animado > div span {
 		font-size: 50px;
 		line-height: 50px;
@@ -116,7 +116,7 @@ main {
 	.logotipo .subtitulo {
 		font-size: 20px;
 	}
-} */
+}
 /* -------------------------------HOME HEADER-------------------------------------- */
 .header {
 	width: 100%;
@@ -164,17 +164,16 @@ main {
 	color: rgb(218, 216, 216);
 }
 
-/* @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 	.header .title {
-		width: 44%;
-		height: 20%;
-		font-size: 0.2em;
+		width: 40%;
+		font-size: 1.3em;
 		padding: 10px 0px 11px 0px;
 	};
 
 	.header .option {
-		width: 33.3%;
-		font-size: 1.5em;
+		width: 30%;
+		font-size: 1em;
 		letter-spacing: 3px;
 		float: left;
 		padding: 20px 0px 16px 0px;
@@ -182,13 +181,12 @@ main {
 	}
 	.header .option:hover {
 		transition: 0.6s ease all;
-		font-size: 1.8em;
 		font-weight: 500;
 		color: var(--profesion);
 		background-color: var(--logotipo);
 		border-radius: 0px 0px 10px 10px;
 	}
-}; */
+};
 /* 
 @media screen and (max-width: 768px) {
 	.header .title {
